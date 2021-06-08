@@ -3,9 +3,7 @@ workflow-aggregator:2.6
 credentials-binding:1.24
 credentials:2.4.1
 git:4.7.1
-role-strategy:3.1.1
 git-parameter:0.9.13
 pipeline-utility-steps:2.6.1
 pipeline-github:2.7
 nodejs:1.4.0
-rebuild:1.32
