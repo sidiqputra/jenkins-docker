@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.277.4
+FROM jenkins/jenkins:2.289.1
 
 MAINTAINER sidiqputra (sidiq.putra@tiket.com)
 

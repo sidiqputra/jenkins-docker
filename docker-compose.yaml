@@ -1,9 +1,11 @@
-master:
-  build: .
-  environment:
-    JAVA_OPTS: "-Djava.awt.headless=true -Djenkins.install.runSetupWizard=false"
-  ports:
+versions: "2"
+services:
+  master:
+    build: .
+    environment:
+      JAVA_OPTS: "-Djava.awt.headless=true -Djenkins.install.runSetupWizard=false"
+    ports:
     - "50000:50000"
     - "8080:8080"
-  volumes:
+    volumes:
     - "./jenkins:/var/jenkins_home"
