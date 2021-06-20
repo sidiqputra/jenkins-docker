@@ -7,3 +7,8 @@ git-parameter:0.9.13
 pipeline-utility-steps:2.8.0
 pipeline-github:2.7
 nodejs:1.4.0
+blueocean:1.24.7
+build-user-vars-plugin:1.7
+job-dsl:1.77
+github-autostatus:3.6.2
+
